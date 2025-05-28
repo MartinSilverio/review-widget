@@ -3,6 +3,8 @@ import AppLayout from './ui/AppLayout';
 import User from './ui/User';
 import { reviews } from './data/quotes';
 import Quote from './ui/Quote';
+import Billboard from './ui/billboard/Billboard';
+import CounterEffect from './ui/CounterEffect';
 
 function App() {
     const [reviewEntries] = useState(reviews);
@@ -39,6 +41,8 @@ function App() {
                 onRandomize={handleRandomize}
                 reviewEntry={reviewEntries[currentId]}
             />
+            {/* <Billboard text="Hello" /> */}
+            {/* <CounterEffect /> */}
         </AppLayout>
     );
 }

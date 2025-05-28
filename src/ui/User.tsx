@@ -8,7 +8,7 @@ function User({ reviewEntry }: { reviewEntry: TReviewEntry }) {
                 <Profile img={reviewEntry.img} />
 
                 <div className="mt-5 text-center  text-lg capitalize tracking-widest">
-                    {reviewEntry.name}P
+                    {reviewEntry.name}
                 </div>
                 <div className="text-center font-robo text-sm capitalize text-blue-400">
                     {reviewEntry.job}
